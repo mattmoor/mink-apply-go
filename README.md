@@ -1,4 +1,4 @@
-# Node.js Sample with `mink apply`
+# Go Sample with `mink apply`
 
 _This repository assumes that you have the latest release of [`mink`](https://github.com/mattmoor/mink) CLI installed locally and the controllers on your cluster._
 
@@ -22,7 +22,7 @@ This will deploy:
 You can also install Scotty's [graph](https://github.com/n3wscott/graph#deploying) tool
 to visualize what we are deploying:
 
-![graph](./mink-apply-nodejs.png)
+![graph](./mink-apply-go.png)
 
 On the left, you can see the PingSource dropping things on the broker.
 
