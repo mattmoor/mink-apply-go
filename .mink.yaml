@@ -3,3 +3,7 @@ recursive: true
 filename:
 - config
 - add
+- divide
+- exponent
+- swap
+- random
