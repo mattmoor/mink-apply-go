@@ -16,7 +16,7 @@ func handle(req types.Payload) types.Payload {
 	}
 }
 
-func Receiver(ctx context.Context, event cloudevents.Event) (*cloudevents.Event, cloudevents.Result) {
+func Receiver(ctx context.Context, event cloudevents.Event) (*cloudevents.Event, error) {
 	// Parse the payload that we receive.
 	req := types.Payload{}
 	if err := event.DataAs(&req); err != nil {
